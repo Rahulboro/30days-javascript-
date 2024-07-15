@@ -14,14 +14,20 @@ console.log(str);
 const bool = true;
 console.log(bool);
 
+// ***          Activity 3: Data Types          ***
+
 // TASK 4: Create a variable of different data types (number, string boolean, object, array) and log each variable's type using the typeof operator
-let oneTaskNum = 10;
-let oneTaskStr = "Hello Ujjal";
-let oneTaskBoolean = true;
-let oneTaskObj = { name: "ujjal Moni Bordoloi", Age: 25 };
-let oneTaskArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(typeof oneTaskNum);
-console.log(typeof oneTaskStr);
-console.log(typeof oneTaskBoolean);
-console.log(typeof oneTaskObj);
-console.log(typeof oneTaskArr);
+let task4Num = 10;
+let task4Str = "Hello Ujjal";
+let task4Boolean = true;
+let task4Obj = { name: "ujjal Moni Bordoloi", Age: 25 };
+let task4Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(typeof task4Num);
+console.log(typeof task4Str);
+console.log(typeof task4Boolean);
+console.log(typeof task4Obj);
+console.log(typeof task4Arr);
+
+// ***          Activity 4: Reassigning Variables           ***
+
+//TASK 5: Declare a variable using let, assign it an intial value, reassign a new value, and log both values to the console.
