@@ -31,3 +31,7 @@ console.log(typeof task4Arr);
 // ***          Activity 4: Reassigning Variables           ***
 
 //TASK 5: Declare a variable using let, assign it an intial value, reassign a new value, and log both values to the console.
+let task5 = 10;
+console.log(task5);
+task5 = 20;
+console.log(task5);
