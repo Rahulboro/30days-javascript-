@@ -37,7 +37,18 @@ task5 = 20;
 console.log(task5);
 
 // ***          Activity 5: Understanding Const           ***
-// TASK 6: Try reassigning a variable declared witb const and observe the error
+
+// TASK 6: Try reassigning a variable declared with const and observe the error
 const task6 = 40;
 task6 = 90;
 console.log(task6);
+
+//***           Feature Request         ***
+// Variable Types Console log: Write a script that declares a variables of different data types and logs both the value and type of each variable to the console
+let task7 = 10;
+console.log(task7);
+console.log(typeof task7);
+let task8 = "Hello Ujjal";
+console.log(task8);
+console.log(typeof task8);
+let task9 = true;
