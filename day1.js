@@ -35,3 +35,9 @@ let task5 = 10;
 console.log(task5);
 task5 = 20;
 console.log(task5);
+
+// ***          Activity 5: Understanding Const           ***
+// TASK 6: Try reassigning a variable declared witb const and observe the error
+const task6 = 40;
+task6 = 90;
+console.log(task6);
