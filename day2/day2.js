@@ -32,3 +32,7 @@ console.log(taskFiveResult);
 let taskSixNum = 10;
 taskSixNum += 60;
 console.log(taskSixNum);
+// Task 7: Use the -= operator to subtract a number from a variable and log the result to the console
+let taskSevenNum = 100;
+taskSevenNum -= 60;
+console.log(taskSevenNum);
