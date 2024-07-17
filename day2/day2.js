@@ -27,7 +27,7 @@ let taskFiveNum2 = 3;
 let taskFiveResult = taskFiveNum % taskFiveNum2;
 console.log(taskFiveResult);
 
-// ***              Assignment Operators                ***
+// ***              Activity 4:Assignment Operators                ***
 // Task 6: Use the += operator to add a number to a variable and log the result to the console
 let taskSixNum = 10;
 taskSixNum += 60;
@@ -36,3 +36,12 @@ console.log(taskSixNum);
 let taskSevenNum = 100;
 taskSevenNum -= 60;
 console.log(taskSevenNum);
+//***               Activity 3:Comparison Operators                ***
+// Task 8: Write a program to compare two using > and < and log the result to the console
+let taskEightNum = 10;
+let taskEightNum2 = 20;
+if (taskEightNum > taskEightNum2) {
+  console.log(`task Eight Number is bigger than task Eight Number`);
+} else {
+  console.log(`task Eight Number is smaller than task Eight Number`);
+}
