@@ -26,3 +26,9 @@ let taskFiveNum = 100;
 let taskFiveNum2 = 3;
 let taskFiveResult = taskFiveNum % taskFiveNum2;
 console.log(taskFiveResult);
+
+// ***              Assignment Operators                ***
+// Task 6: Use the += operator to add a number to a variable and log the result to the console
+let taskSixNum = 10;
+taskSixNum += 60;
+console.log(taskSixNum);
