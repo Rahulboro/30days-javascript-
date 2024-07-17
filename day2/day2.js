@@ -22,3 +22,7 @@ let taskFourNum2 = 20;
 let taskFourResult = taskFourNum / taskFourNum2;
 console.log(taskFourResult);
 //Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.
+let taskFiveNum = 100;
+let taskFiveNum2 = 3;
+let taskFiveResult = taskFiveNum % taskFiveNum2;
+console.log(taskFiveResult);
