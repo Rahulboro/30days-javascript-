@@ -37,11 +37,27 @@ let taskSevenNum = 100;
 taskSevenNum -= 60;
 console.log(taskSevenNum);
 //***               Activity 3:Comparison Operators                ***
-// Task 8: Write a program to compare two using > and < and log the result to the console
+// Task 8: Write a program to compare two numbers using > and < and log the result to the console
 let taskEightNum = 10;
 let taskEightNum2 = 20;
 if (taskEightNum > taskEightNum2) {
   console.log(`task Eight Number is bigger than task Eight Number`);
 } else {
   console.log(`task Eight Number is smaller than task Eight Number`);
+}
+// Task 9: Write a program to compare two numbers using >= and <= and log the result to the console
+let taskNineNum = 30;
+let taskNineNum2 = 40;
+if (taskNineNum <= taskNineNum2) {
+  console.log("task nine Number is smaller or equal to task nine 2");
+} else {
+  console.log("task nine Number2 is smaller or equal to task nine ");
+}
+// Task 10: Write a program to compare two number using == and === and log the result to the console
+let taskTenNum = 10;
+let taskTenNum2 = 0;
+if (taskTenNum == taskTenNum2) {
+  console.log(`taskTenNum is equal to taskTenNum2 `);
+} else {
+  console.log(`taskTenNum is not equal to taskTenNum2 `);
 }
