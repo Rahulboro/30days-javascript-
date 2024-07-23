@@ -61,3 +61,19 @@ if (taskTenNum == taskTenNum2) {
 } else {
   console.log(`taskTenNum is not equal to taskTenNum2 `);
 }
+taskTrippleEqualOne = 100;
+taskTrippleEqualTwo = 100;
+if (taskTrippleEqualOne === taskTrippleEqualTwo) {
+  console.log(`task tripple is euqal number`);
+} else {
+  console.log(`tripple is not equal`);
+}
+// Task 11: Write a program that uses && operator to combine two conditions and log the result to the console
+let taskElevenNum = 40;
+let taskElevenNum2 = 20;
+let taskElevenNum3 = true;
+if (taskElevenNum > taskElevenNum2 && taskElevenNum3) {
+  console.log(`Task eleven is true and bigger than task eleven 2 `);
+} else {
+  console.log(`task eleven 2 is not bigger than task eleven num `);
+}
