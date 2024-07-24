@@ -63,17 +63,27 @@ if (taskTenNum == taskTenNum2) {
 }
 taskTrippleEqualOne = 100;
 taskTrippleEqualTwo = 100;
-if (taskTrippleEqualOne === taskTrippleEqualTwo) {
+if (taskTrippleEqualOne == taskTrippleEqualTwo) {
   console.log(`task tripple is euqal number`);
 } else {
   console.log(`tripple is not equal`);
 }
 // Task 11: Write a program that uses && operator to combine two conditions and log the result to the console
-let taskElevenNum = 40;
+let taskElevenNum = 20;
 let taskElevenNum2 = 20;
-let taskElevenNum3 = true;
-if (taskElevenNum > taskElevenNum2 && taskElevenNum3) {
-  console.log(`Task eleven is true and bigger than task eleven 2 `);
+
+if (taskElevenNum && taskElevenNum2 == Number) {
+  console.log(`Number and Number2 are number `);
 } else {
-  console.log(`task eleven 2 is not bigger than task eleven num `);
+  console.log(`Number one and Number two are not number`);
 }
+
+// Task 12: Write a program that uses the || operator to combine two condition and log the result to the console
+let task12One = true;
+let task12Second = false;
+const resultTask = task12One || task12Second;
+console.log(resultTask);
+// task 13: Write a program that uses the ! operator to negate a condition and log the result to the console
+let task13One = true;
+let task13Second = false;
+const resultTask13 = !task13One;
